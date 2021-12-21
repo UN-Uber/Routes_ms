@@ -1,7 +1,6 @@
 from djongo import models
 
 class Record(models.Model):
-    _id = models.ObjectIdField()
     date = models.DateTimeField()
     startLatitude = models.FloatField()
     startLongitude = models.FloatField()

@@ -1,0 +1,1 @@
+from .FavPlaceViews import FavPlaceView, FavPlaceUserView
